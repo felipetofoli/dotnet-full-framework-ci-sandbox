@@ -22,9 +22,6 @@ jobs:
       - name: Navigate to Workspace
         run: cd $GITHUB_WORKSPACE
 
-      - name: Create Build Directory
-        run: mkdir _build
-
       - name: Restore Packages
         run: nuget restore Sandbox.sln
 
