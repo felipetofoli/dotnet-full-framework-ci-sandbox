@@ -1,4 +1,4 @@
-name: Full Framework Build
+name: Dotnet Framework Building and Testing
 
 on:  
   push:
@@ -32,6 +32,6 @@ jobs:
         run: |
           msbuild.exe Sandbox.sln /p:platform="Any CPU" /p:configuration="Release"
         
-      - name: Run tests
+      - name: Run Tests
         run: vstest.console.exe .\tests\Sandbox.Tests\bin\Release\Sandbox.Tests.dll
 
