@@ -1,2 +1,2 @@
 # dotnet-full-framework-sandbox
-[![Actions Status](https://github.com/felipetofoli/dotnet-full-framework-sandbox/workflows/build/badge.svg)](https://github.com/felipetofoli/dotnet-full-framework-sandbox/actions)
+[![Build and Tests](https://github.com/felipetofoli/dotnet-full-framework-sandbox/actions/workflows/ci.yml/badge.svg)](https://github.com/felipetofoli/dotnet-full-framework-sandbox/actions/workflows/ci.yml)
