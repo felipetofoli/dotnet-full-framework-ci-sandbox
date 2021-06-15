@@ -40,7 +40,6 @@ namespace Sandbox.WebAPI.Controllers
         [Route("random/positive")]
         public List<int> GetRandomPositive(int? quantity = MAX_ITEMS_QUANTITY)
         {
-
             if (quantity.HasValue && quantity.Value > MAX_ITEMS_QUANTITY)
             {
                 quantity = MAX_ITEMS_QUANTITY;
