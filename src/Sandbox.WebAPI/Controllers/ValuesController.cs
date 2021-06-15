@@ -7,6 +7,8 @@ namespace Sandbox.WebAPI.Controllers
     [RoutePrefix("values")]
     public class ValuesController : ApiController
     {
+        private const int MAX_ITEMS_QUANTITY = 10;
+
         // GET api/values
         public IEnumerable<string> Get()
         {
@@ -36,10 +38,16 @@ namespace Sandbox.WebAPI.Controllers
 
         [HttpGet]
         [Route("random/positive")]
-        public List<int> GetRandomPositive(int quantity)
+        public List<int> GetRandomPositive(int? quantity=MAX_ITEMS_QUANTITY)
         {
+
+                if (quantity.HasValue && quantity.Value>MAX_ITEMS_QUANTITY)
+                {
+                quantity=MAX_ITEMS_QUANTITY;
+                }
+
             var generator = new RandomPositiveNumberGenerator();
-            return generator.Generate(quantity);
+            return generator.Generate(quantity.Value);
         }
     }
 }
