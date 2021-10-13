@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Sandbox.WebAPI.Generator
 {
@@ -17,6 +18,10 @@ namespace Sandbox.WebAPI.Generator
             }
 
             return values;
+        }
+
+        private void UnnecessaryMethod()
+        { 
         }
     }
 }
