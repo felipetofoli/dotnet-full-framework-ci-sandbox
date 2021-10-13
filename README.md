@@ -5,7 +5,8 @@
 
 This repository aims to show how to create **GitHub Actions** to:
 - **Build and Test** a **.Net Full Framework** Web API project;
-- Check the **code formatting** (.NET / C#).
+- Check the **code formatting** (.NET / C#);
+- Run **SonarQube** code static analysis.
 
 
 --
@@ -13,4 +14,5 @@ This repository aims to show how to create **GitHub Actions** to:
 :brazil:
 O propósito deste repositório é apresentar a criação de **GitHub Actions** para um projeto de Web API **.Net Full Framework**, contemplando as etapas de:
 - **Build e Teste** da aplicação;
-- Verificação da **formatação do código** (.NET / C#) da aplicação.
+- Verificação da **formatação do código** (.NET / C#) da aplicação;
+- Executar análise estática de código via **SonarQube**.
