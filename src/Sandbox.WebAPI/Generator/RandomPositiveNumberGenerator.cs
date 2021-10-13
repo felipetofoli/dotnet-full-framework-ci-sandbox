@@ -19,5 +19,9 @@ namespace Sandbox.WebAPI.Generator
 
             return values;
         }
+
+        private void UnnecessaryMethod()
+        { 
+        }
     }
 }
