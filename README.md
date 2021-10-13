@@ -1,6 +1,6 @@
 # GitHub Actions for .Net Full Framework: Build & Test
 
-[![Build and Tests](https://github.com/felipetofoli/dotnet-full-framework-ci-sandbox/actions/workflows/ci.yml/badge.svg)](https://github.com/felipetofoli/dotnet-full-framework-ci-sandbox/actions/workflows/ci.yml) [![dotnet format](https://github.com/felipetofoli/dotnet-full-framework-ci-sandbox/actions/workflows/dotnet-format.yml/badge.svg)](https://github.com/felipetofoli/dotnet-full-framework-ci-sandbox/actions/workflows/dotnet-format.yml)
+[![Build and Tests](https://github.com/felipetofoli/dotnet-full-framework-ci-sandbox/actions/workflows/ci.yml/badge.svg)](https://github.com/felipetofoli/dotnet-full-framework-ci-sandbox/actions/workflows/ci.yml) [![dotnet format](https://github.com/felipetofoli/dotnet-full-framework-ci-sandbox/actions/workflows/dotnet-format.yml/badge.svg)](https://github.com/felipetofoli/dotnet-full-framework-ci-sandbox/actions/workflows/dotnet-format.yml) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=felipetofoli_dotnet-full-framework-ci-sandbox&metric=alert_status)](https://sonarcloud.io/dashboard?id=felipetofoli_dotnet-full-framework-ci-sandbox)
 
 
 This repository aims to show how to create **GitHub Actions** to:
