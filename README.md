@@ -16,3 +16,5 @@ O propósito deste repositório é apresentar a criação de **GitHub Actions** 
 - **Build e Teste** da aplicação;
 - Verificação da **formatação do código** (.NET / C#) da aplicação;
 - Executar análise estática de código via **SonarQube**.
+
+# Let's test PR
